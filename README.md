@@ -1,5 +1,4 @@
 # Simple Scraping Project
-***
 This is a simple scraping spider, using Scrapy and Python.
 In this project, we scrape the following page and extract the first table, which
 contains the GPD of the all the counties in 2022   
@@ -7,7 +6,6 @@ contains the GPD of the all the counties in 2022
 
 
 # Configuration
-***
 - Create a venv using `python3 -m venv venv`
 - activate venv using `source venv/bin/activate` on Mac or `venv\Scripts\activate.bat` on Windows
 - install Scrapy using `pip install scrapy`
@@ -20,7 +18,6 @@ If you want to store the result in a separate file you can use `scrapy crawl gdp
 In this project, we store the final result in SQLite database, so if you don't export the data, that's fine.   
 
 # Project Structure
-***
 The project structure is as follows:
 - `gdp.py` is the main file which contains the spider
 - `items.py` is the file which contains the model of the data we want to scrape
